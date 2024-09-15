@@ -19,7 +19,7 @@ function isEven(a) {
 }
 
 
-function maxNumber(...args) {
+function maxNumber(args) {
     let max = 0;
     console.log("maxLength");
     for (el of args) {
